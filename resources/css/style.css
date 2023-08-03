@@ -136,13 +136,10 @@ body {
     box-shadow: 0.5rem 1rem 3rem hsl(var(--clr-neutral-hsl-700), 0.2);
   }
 }
-.results,
-.summary {
-  padding: var(--padding);
-}
 .results {
   color: hsl(var(--clr-neutral-hsl-100), 0.75);
   text-align: center;
+  padding: var(--padding) calc(var(--padding) * 1.5);
   background: var(--gradient-primary);
   border-radius: 0 0 var(--border-radius) var(--border-radius);
 }
@@ -171,6 +168,9 @@ body {
   color: var(--clr-neutral-100);
   font-size: var(--fs-700);
   font-weight: var(--fw-bold);
+}
+.summary {
+    padding: var(--padding);
 }
 .summary-item {
     display: flex;
